@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+    Добавление сайтов
+{% endblock %}
+{% block content %}
+    <div>
+        <ul>Вы добавили следующие сайты:</ul>
+{% for url in add_urls %}
+            <li>{{ url }}</li>
+{% endfor %}
+    </div>
+{% endblock %}

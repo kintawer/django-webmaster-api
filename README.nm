@@ -1,0 +1,10 @@
+Application for automatization work with yandex-webmater service.
+
+This app for you if you have a few accounts with many sites.
+
+Manual:
+In file "api.py":
+
+self.OAUTH_TOKENS = ['OAUTH_TOKEN_1', 'OAUTH_TOKEN_2']
+
+input your authorization tokens in this list.

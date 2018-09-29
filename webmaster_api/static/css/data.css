@@ -1,0 +1,29 @@
+.add-token{
+    max-width: 40%;
+    margin: auto auto;
+    padding-top: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+main {
+    padding: 20px 20px;
+}
+#urlTable_wrapper{
+    padding: 50px 10px;
+    max-width: 60%;
+}
+#delete-urls, #add-urls{
+    height: 400px;
+    width: 600px;
+}
+.text-forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

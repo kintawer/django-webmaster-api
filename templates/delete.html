@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+    Удаление сайтов
+{% endblock %}
+{% block content %}
+    <div>
+        <ul>Вы удалили следующие сайты:</ul>
+{% for url in delete_urls %}
+            <li>{{ url }}</li>
+{% endfor %}
+    </div>
+{% endblock %}
