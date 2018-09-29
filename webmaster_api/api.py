@@ -3,7 +3,6 @@ import requests
 from dateutil import parser
 from .models import Table
 import time
-import asyncio
 from threading import Thread
 
 
